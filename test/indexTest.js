@@ -49,7 +49,7 @@ describe('index.js', function () {
         expect(appendCat("Broom")).to.have.ordered.members(["Milo", "Otis", "Garfield", "Broom"]);
 
         expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
-      });
+      }
     });
 
     describe('prependCat(name)', function () {
